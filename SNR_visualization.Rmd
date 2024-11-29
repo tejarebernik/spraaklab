@@ -1,0 +1,67 @@
+---
+title: "Signal-to-noise ratio: SPRAAKLAB"
+author: "Teja Rebernik"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Load dataset
+
+```{r}
+library(ggplot2)
+library(dplyr)
+```
+
+```{r}
+dat <- read.csv("SNR_spraaklab.csv")
+head(dat)
+str(dat)
+```
+
+```{r}
+dat[1:6] <- lapply(dat[1:6], as.factor)
+str(dat)
+```
+
+# Table 2: SNR levels per location
+
+```{r}
+dat %>%
+  group_by(festival_or_uni, condition, SPRAAKLAB) %>%
+  summarize(count = n())
+
+# as seen in previous table, there are only two recordings per condition at the university
+# we therefore report min/max
+
+dat %>%
+  filter(festival_or_uni == "University") %>%
+  group_by(condition, SPRAAKLAB) %>%
+  summarise(min_SNR = min(SNR),
+            max_SNR = max(SNR))
+
+# for festival recordings, we report mean and standard deviation
+dat %>%
+  filter(festival_or_uni == "Festival") %>%
+  group_by(condition, SPRAAKLAB) %>%
+  summarise(mean_SNR = mean(SNR),
+            sd_SNR = sd(SNR))
+```
+
+# Figure 7: SNR levels per location
+
+```{r}
+dat %>%
+  ggplot(aes(x = location, y = SNR, fill=SPRAAKLAB)) +
+  geom_boxplot(outlier.shape=NA) +
+  geom_jitter(aes(shape = condition), size=3) +
+  theme_bw(base_size=16) +
+  facet_wrap(~festival_or_uni, scales="free_x") +
+  scale_shape_manual(values=c(16, 15, 2)) +
+  labs(x="Location", y="SNR", shape="Condition", fill="SPRAAKLAB") +
+  scale_fill_manual(values=c("#F0E442", "#56B4E9")) +
+  guides(fill="none") +
+  guides(shape=guide_legend(title = "Condition")) +
+  xlab("Location") +
+  geom_hline(yintercept=42, linetype="dotted", color = "grey30", size = 1.1) +
+  geom_hline(yintercept=30, linetype="dotted", color = "grey30", size=1.1)
+```

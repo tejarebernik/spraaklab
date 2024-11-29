@@ -1,0 +1,39 @@
+date,filename,location,condition,festival_or_uni,SPRAAKLAB,dB,p_max,p_min_1000,SNR
+01-Nov,recording_1_inside.wav,SPRAAKLAB,recording,Festival,y,36.2,0.1415,0.001648,38.67598465
+01-Nov,recording_1_Outside.wav,Outside,recording,Festival,n,75.7,0.1453,0.02127,16.68996249
+01-Nov,recording_2_inside.wav,SPRAAKLAB,recording,Festival,y,36.3,0.1739,0.001648,40.46684749
+01-Nov,recording_2_Outside.wav,Outside,recording,Festival,n,69.6,0.1401,0.01083,22.23619357
+01-Nov,recording_3_inside.wav,SPRAAKLAB,recording,Festival,y,39.7,0.1473,0.00116,42.07489515
+01-Nov,recording_3_Outside.wav,Outside,recording,Festival,n,74.7,0.124,0.01086,21.1518372
+03-Nov,recording_4_inside.wav,SPRAAKLAB,recording,Festival,y,37.6,0.1554,0.002045,37.61515404
+03-Nov,recording_4_Outside.wav,Outside,recording,Festival,n,68.6,0.1353,0.02069,16.31074612
+03-Nov,recording_5_inside.wav,SPRAAKLAB,recording,Festival,y,35.3,0.1545,0.001068,43.20714462
+03-Nov,recording_5_Outside.wav,Outside,recording,Festival,n,66.2,0.1447,0.008148,24.98835022
+06-Nov,recording_emalab.wav,Inside booth,recording,University,n,33.7,0.1646,0.001068,43.75717156
+06-Nov,recording_emalab2.wav,Inside booth,recording,University,n,33.7,0.1464,0.000885,44.37195612
+06-Nov,recording_spraaklab_harmo.wav,SPRAAKLAB,recording,University,y,34.5,0.1593,0.0007019,47.11881067
+06-Nov,recording_spraaklab_harmo2.wav,SPRAAKLAB,recording,University,y,34.5,0.1416,0.001099,42.20131122
+01-Nov,speaker_day2_inside_loud.wav,SPRAAKLAB,loud,Festival,y,39.7,0.3344,0.001526,46.8142347
+01-Nov,speaker_day2_inside_normal.wav,SPRAAKLAB,normal,Festival,y,39.7,0.2372,0.002014,41.42110437
+01-Nov,speaker_day2_Outside_loud.wav,Outside,loud,Festival,n,74.7,0.5002,0.0086,35.29290472
+01-Nov,speaker_day2_Outside_normal.wav,Outside,normal,Festival,n,74.7,0.4574,0.0127,31.12984879
+03-Nov,speaker_day3_inside-loud.wav,SPRAAKLAB,loud,Festival,y,35.3,0.4273,0.001129,51.56077902
+03-Nov,speaker_day3_inside-normal.wav,SPRAAKLAB,normal,Festival,y,35.3,0.2742,0.001068,48.18992396
+03-Nov,speaker_day3_Outside-loud.wav,Outside,loud,Festival,n,66.2,0.4764,0.005432,38.86023983
+03-Nov,speaker_day3_Outside-normal.wav,Outside,normal,Festival,n,66.2,0.4634,0.006561,36.97971983
+06-Nov,speaker_emalab_loud.wav,Inside booth,loud,University,n,33.7,0.4127,0.001923,46.63310369
+06-Nov,speaker_emalab_loud2.wav,Inside booth,loud,University,n,33.7,0.4223,0.001068,51.94099657
+06-Nov,speaker_emalab_normal.wav,Inside booth,normal,University,n,33.7,0.2086,0.0007324,49.09131937
+06-Nov,speaker_emalab_normal2.wav,Inside booth,normal,University,n,33.7,0.2599,0.0007019,51.37062074
+31-Oct,speaker_inside_loud.wav,SPRAAKLAB,loud,Festival,y,40.5,0.3612,0.002167,44.43777661
+31-Oct,speaker_inside_normal.wav,SPRAAKLAB,normal,Festival,y,40.5,0.1993,0.00174,41.17916101
+31-Oct,speaker_Outside_loud.wav,Outside,loud,Festival,n,76,0.5001,0.009521,34.40748579
+31-Oct,speaker_Outside_normal.wav,Outside,normal,Festival,n,76,0.5001,0.01022,33.79211917
+06-Nov,speaker_spraaklab_harmo_loud.wav,SPRAAKLAB,loud,University,y,34.5,0.4638,0.001068,52.75518983
+06-Nov,speaker_spraaklab_harmo_loud2.wav,SPRAAKLAB,loud,University,y,34.5,0.4818,0.001099,52.83738206
+06-Nov,speaker_spraaklab_harmo_normal.wav,SPRAAKLAB,normal,University,y,34.5,0.2482,0.0007629,50.24668325
+06-Nov,speaker_spraaklab_harmo_normal2.wav,SPRAAKLAB,normal,University,y,34.5,0.2491,0.0009155,48.69430758
+31-Oct,speaker2_inside_loud.wav,SPRAAKLAB,loud,Festival,y,40.1,0.3671,0.002258,44.22120894
+31-Oct,speaker2_inside_normal.wav,SPRAAKLAB,normal,Festival,y,40.1,0.2455,0.002472,39.9400606
+31-Oct,speaker2_Outside_loud.wav,Outside,loud,Festival,n,72.1,0.5002,0.009369,34.54900897
+31-Oct,speaker2_Outside_normal.wav,Outside,normal,Festival,n,72.1,0.3837,0.00589,36.27753009
